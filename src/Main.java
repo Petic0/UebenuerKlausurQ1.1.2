@@ -1,8 +1,13 @@
+import java.util.Queue;
+import java.util.Stack;
+
 public class Main extends Koordinaten {
     public static void main(String[] args) {
         System.out.println("Hello world!");
         Main first = new Main(300, 300);
         first.printInfo();
+
+
 //        int[]erstes= new int[3];
 //        int[]zweites= new int[3];
 //        erstes[0]=2;
